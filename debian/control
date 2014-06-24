@@ -1,0 +1,18 @@
+Source: dmenu
+Section: x11
+Priority: optional
+Maintainer: Javier Lopez <chilicuil@ubuntu.com>
+XSBC-Original-Maintainer: Vasudev Kamath <kamathvasudev@gmail.com>
+Build-Depends: debhelper (>= 8), libx11-dev, libxinerama-dev, libxft-dev
+Standards-Version: 3.9.1
+Homepage: http://www.suckless.org
+Vcs-Git: git://github.com/minos-org/dmenu.git
+Vcs-Browser: http://github.com/minos-org/dmenu
+
+Package: dmenu
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Provides: dmenu
+Description: dmenu is a dynamic menu for X, originally designed for dwm.
+ Dmenu is a dynamic menu for X, originally designed for dwm. It manages large
+ numbers of user-defined menu items efficiently.
